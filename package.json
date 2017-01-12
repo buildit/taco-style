@@ -1,0 +1,11 @@
+{
+  "name": "taco-style",
+  "version": "0.0.2",
+  "description": "A style library for Project T.A.C.O.",
+  "main": "scss/main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zachary Smith",
+  "license": "MIT"
+}
