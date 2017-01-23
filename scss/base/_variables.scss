@@ -3,7 +3,8 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: $font-stack-system;
+@import url('https://fonts.googleapis.com/css?family=Oswald'); // TODO: Don't use CDN
+$base-font-family: 'Oswald', $font-stack-system;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -24,7 +25,9 @@ $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
-$taco-orange: hsl(35,97,49);
+$taco-pink: #ff00cc;
+$taco-green: #42baa2;
+$taco-orange: #ffcc66;
 
 // Font Colors
 $base-font-color: $dark-gray;
