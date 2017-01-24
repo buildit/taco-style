@@ -1,0 +1,26 @@
+.menu-item {
+  outline: 1px solid aqua;
+  width: 172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .info {
+    margin: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 80px;
+
+    .price {
+      color: $warm-gray;
+      &:before {
+        content: "$";
+      }
+    }
+  }
+
+  .name {
+    text-transform: uppercase;
+  }
+}
