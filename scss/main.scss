@@ -1,4 +1,8 @@
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "base/base";
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import "atoms/text";
+@import "atoms/colors";
+
+// @import "bourbon/bourbon";
+// @import "neat/neat";
+// @import "base/base";
 @import "components/main";
