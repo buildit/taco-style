@@ -1,0 +1,80 @@
+// TODO: Make Button a component
+.button {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  background: $taco-pink;
+  color: white;
+  text-transform: uppercase;
+  &:hover {
+    background: $taco-orange;
+  }
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+.menu-category-list {
+  display: flex;
+  .menu-category-item {
+    margin-bottom: 1rem;
+    margin-right: 10px;
+  }
+}
+menu-category-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  align-items: center;
+  background: gray;
+  color: black;
+
+  .category-name {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  &.reverse-type {
+    background: black;
+    color: white;
+  }
+
+}
+.view-title {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu-item-list {
+  @include outer-container;
+  .menu-item {
+    @include span-columns(6);
+    width: 172px;
+    margin: 5px;
+  }
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  padding: 0.5rem;
+  background: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  .nav-item {
+    margin: 0 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+}
