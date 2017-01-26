@@ -1,0 +1,42 @@
+.location-address {
+  width: 126px;
+  height: 34px;
+  font-family: BrandonText;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: $black;
+}
+.miles-text {
+  width: 32px;
+  height: 23px;
+  font-family: Oswald;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  color: $black;
+}
+.select-location-button {
+  width: 160px;
+  height: 40px;
+  background-color: $pink;
+}
+.select-location-text {
+  width: 137px;
+  height: 23px;
+  font-family: FranchiseFree;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white;
+}

@@ -1,28 +1,8 @@
-
-.bottom-menu {
-  width: 375px;
-  height: 50px;
-  background-color: $black;
-}
-
-.order-button {
-  width: 200px;
-  height: 47px;
-  background-color: $pink;
-}
-
-.bottom-menu-text {
-  width: 55px;
-  height: 27px;
-  font-family: FranchiseFree;
-  font-size: 30px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: $warm-grey;
-}
+@import "bottom-menu";
+@import "header-nav";
+@import "order-button";
+@import "forms";
+@import "location-list";
 
 
 .button {
