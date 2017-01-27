@@ -7,21 +7,36 @@
 
 
 .button {
-  padding: 1rem;
-  margin: 1rem;
+  margin-top: 13px;
+  padding: 5px 10px 5px 10px;
+  width: 200px;
+  height: 47px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  background: $pink;
-  color: white;
+  background: $white;
+  color: $white;
   text-transform: uppercase;
   &:hover {
     background: $pink;
+    color: $white;
   }
   a {
-    color: white;
+    vertical-align:middle;
+    color: $teal;
+    text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-family: FranchiseFree;
+    font-size: 30px;
     font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.7;
+    letter-spacing: normal;
+    text-align: center;
+    &:hover {
+      color: $white;
+    }
   }
 }
 .menu-category-list {
@@ -70,17 +85,20 @@ menu-category-item {
 // }
 
 .nav {
-  height: 50px;
-  width: 100%;
-  padding: 0.5rem;
+  height: 27px;
+  width: 375px;
+  padding: 11px;
   background: black;
-  color: white;
   position: fixed;
   bottom: 0;
   display: flex;
   justify-content: center;
   .nav-item {
     margin: 0 1rem;
+    color: $warm-grey;
+    font-family: FranchiseFree;
+    font-size: 20px;
+    font-weight: bold;
     display: inline-block;
     text-transform: uppercase;
   }
