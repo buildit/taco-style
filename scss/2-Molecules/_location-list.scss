@@ -40,3 +40,20 @@
   text-align: center;
   color: $white;
 }
+.search-container {
+  width: 375px;
+  height: 66px;
+  background-color: hsl(0, 0%, 15%);
+}
+.search-input{
+  width: 234.4px;
+  height: 35px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+}
+.map-container {
+  margin-bottom: -5px;
+}
