@@ -20,3 +20,12 @@
   height: 205px;
   object-fit: contain;
 }
+.recenter-button {
+  position: absolute;
+  top: 215px;
+  left: 314px;
+  width: 43px;
+ height: 43px;
+ object-fit: contain;
+  z-index: 10;
+}
