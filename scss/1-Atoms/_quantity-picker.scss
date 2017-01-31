@@ -6,6 +6,16 @@
   color: $warm-grey;
 
   .minus,
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      height: 40px;
+      width: 40px;
+      background: $grey_4;
+      color: white;
+  }
   .plus,
   {
       display: flex;

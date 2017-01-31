@@ -1,0 +1,19 @@
+.nav {
+  height: 27px;
+  width: 375px;
+  padding: 11px;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  .nav-item {
+    margin: 0 1rem;
+    color: $warm-grey;
+    font-family: FranchiseFree;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+}
