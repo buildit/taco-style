@@ -1,6 +1,7 @@
 .location-address {
   width: 126px;
   height: 34px;
+  padding-bottom: 15px;
   font-family: BrandonText;
   font-size: 14px;
   font-weight: normal;
@@ -11,8 +12,6 @@
   color: $black;
 }
 .miles-text {
-  width: 32px;
-  height: 23px;
   font-family: Oswald;
   font-size: 14px;
   font-weight: normal;
@@ -20,6 +19,8 @@
   font-stretch: normal;
   line-height: 1.64;
   letter-spacing: normal;
+  text-align: center;
+  padding-left: 4px;
   color: $black;
 }
 .select-location-button {
@@ -30,6 +31,7 @@
 .select-location-text {
   width: 137px;
   height: 23px;
+  padding: 7px 12px 10px 12px;
   font-family: FranchiseFree;
   font-size: 24px;
   font-weight: bold;
@@ -39,6 +41,35 @@
   letter-spacing: normal;
   text-align: center;
   color: $white;
+}
+.list-container {
+
+}
+.list-item {
+  width: 375px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  border-bottom: solid 1px hsl(0, 0%, 92%);
+}
+.list-item-content{
+    padding: 0px 22px 0px 22px;
+}
+.item-border{
+  width: 363px;
+  height: 1px;
+  border: solid 1px hsl(0, 0%, 92%);
+}
+.mile-marker-container{
+  width: 43px;
+  align-items: center;
+  padding: 6px 22px 5px 22px;
+}
+.expand {
+  position: relative;
+  top: -35px;
+  left: 45px;
 }
 .search-container {
   width: 375px;
