@@ -1,10 +1,14 @@
 .view-title {
   width: 375px;
   height: 67px;
+  padding-right: 40px;
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: $black;
+  color: $white;
+}
+.cart {
+  color: $white;
 }
 .title-text {
   font-family: FranchiseFree;
