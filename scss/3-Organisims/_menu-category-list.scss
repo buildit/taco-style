@@ -3,12 +3,9 @@
    width: 375px;
    height: 40px;
    background-color: $grey_1;
-  .menu-category-item {
-    margin-right: 10px;
-  }
 }
 .menu-category-item {
-  margin: 0;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;

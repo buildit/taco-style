@@ -11,16 +11,5 @@
     flex-direction: row;
     justify-content: space-between;
     min-height: 80px;
-
-    .price {
-      color: $warm-grey;
-      &:before {
-        content: "$";
-      }
-    }
-  }
-
-  .name {
-    text-transform: uppercase;
   }
 }
