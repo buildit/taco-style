@@ -1,14 +1,14 @@
 .nav {
   height: 27px;
-  width: 375px;
+  width: 355px;
   padding: 11px;
   background: black;
   position: fixed;
   bottom: 0;
   display: flex;
-  justify-content: center;
+  overflow-x: scroll;
   .nav-item {
-    margin: 0 1rem;
+    margin-right: 45px;
     color: $warm-grey;
     font-family: FranchiseFree;
     font-size: 30px;
