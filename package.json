@@ -1,6 +1,6 @@
 {
   "name": "taco-style",
-  "version": "0.1.31",
+  "version": "0.1.32",
   "description": "A style library for Project T.A.C.O.",
   "main": "scss/main.scss",
   "scripts": {
