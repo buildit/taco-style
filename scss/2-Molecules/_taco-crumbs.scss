@@ -1,4 +1,4 @@
-.taco-crumbs {
+.header {
   width: 375px;
   height: 67px;
   display: flex;
@@ -6,7 +6,8 @@
   align-items: center;
   background-color: $black;
 }
-.action {
+.header-text {
+  width: 190px;
   font-family: FranchiseFree;
   font-size: 30px;
   font-weight: bold;
@@ -20,8 +21,16 @@
   color: $white;
 }
 .back-icon {
-color: $white;
+  font-family: FranchiseFree;
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  color: $white;
 }
 .cart-icon {
-color: $white;
+  font-family: FranchiseFree;
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  color: $white;
 }
