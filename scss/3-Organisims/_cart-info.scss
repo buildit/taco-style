@@ -1,6 +1,6 @@
 .total-plain {
   width: 375px;
-  height: 66px;
+  height: 56px;
   display: flex;
   align-items: center;
 .subtotal-plain{
@@ -38,7 +38,7 @@
   margin-bottom: 11px;
   margin-left: 75px;
   font-family: Oswald;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -181,9 +181,10 @@
 
 }
 .divider {
-  width: 363px;
+  width: 332px;
   height: 1px;
   margin-top: 14px;
+  margin-left: 23px;
   border-bottom: solid 1px #ebebeb;
 }
 .terms {
